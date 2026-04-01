@@ -1,0 +1,67 @@
+plugins {
+    kotlin("jvm") version "2.0.20"
+    `maven-publish`
+}
+
+group = "org.sbm4j"
+version = "1.1-SNAPSHOT"
+
+repositories {
+    mavenCentral()
+}
+
+
+val kotlinVersion: String by project
+val logbackVersion: String by project
+val coroutinesVersion: String by project
+val mockkVersion: String by project
+val hamkrestVersion: String by project
+val kotlinLoggingVersion: String by project
+
+
+dependencies {
+    implementation("org.jetbrains.kotlin:kotlin-stdlib")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:$coroutinesVersion")
+
+    implementation(kotlin("reflect"))
+
+    implementation("ch.qos.logback:logback-classic:$logbackVersion")
+    implementation("io.github.oshai:kotlin-logging-jvm:5.1.0")
+
+    testImplementation("io.mockk:mockk:${mockkVersion}")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutinesVersion")
+    testImplementation(kotlin("test"))
+    testImplementation("com.natpryce:hamkrest:$hamkrestVersion")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-debug:${coroutinesVersion}")
+}
+
+tasks.test {
+    useJUnitPlatform()
+}
+
+kotlin {
+    jvmToolchain(21)
+}
+
+
+publishing{
+    repositories {
+        maven {
+            name = "githubPackages"
+            url = uri("https://maven.pkg.github.com/sandrineBeauche/meercat")
+            credentials{
+                username = System.getenv("GITHUB_PACKAGE_REGISTRY_USER")
+                password = System.getenv("GITHUB_PACKAGE_REGISTRY_TOKEN")
+            }
+        }
+    }
+    publications {
+        create<MavenPublication>("maven") {
+            groupId = "org.sbm4j"
+            artifactId = "meercat"
+            version = "1.1-SNAPSHOT"
+            from(components["java"])
+        }
+    }
+}
