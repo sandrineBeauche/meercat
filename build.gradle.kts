@@ -1,10 +1,11 @@
 plugins {
     kotlin("jvm") version "2.0.20"
     `maven-publish`
+    `java-test-fixtures`
 }
 
 group = "org.sbm4j"
-version = "1.1.1"
+version = "1.1.2"
 
 repositories {
     mavenCentral()
@@ -34,6 +35,17 @@ dependencies {
     testImplementation(kotlin("test"))
     testImplementation("com.natpryce:hamkrest:$hamkrestVersion")
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-debug:${coroutinesVersion}")
+
+    testFixturesImplementation("io.mockk:mockk:${mockkVersion}")
+    testFixturesImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:${coroutinesVersion}")
+    testFixturesImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-debug:${coroutinesVersion}")
+    testFixturesImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:${coroutinesVersion}")
+    testFixturesImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:${coroutinesVersion}")
+    testFixturesImplementation("ch.qos.logback:logback-classic:$logbackVersion")
+    testFixturesImplementation("io.github.oshai:kotlin-logging-jvm:5.1.0")
+    //testFixturesImplementation(kotlin("test"))
+    testFixturesImplementation("org.jetbrains.kotlin:kotlin-stdlib")
+    testFixturesImplementation("org.junit.jupiter:junit-jupiter-api:5.10.1")
 }
 
 tasks.test {
@@ -60,7 +72,7 @@ publishing{
         create<MavenPublication>("maven") {
             groupId = "org.sbm4j"
             artifactId = "meercat"
-            version = "1.1-SNAPSHOT"
+            version = "$version"
             from(components["java"])
         }
     }

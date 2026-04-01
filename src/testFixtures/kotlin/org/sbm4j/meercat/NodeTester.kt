@@ -8,10 +8,8 @@ import kotlinx.coroutines.cancel
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.test.TestScope
 import kotlinx.coroutines.test.advanceUntilIdle
-import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.BeforeEach
 import org.sbm4j.meercat.nodes.Node
-import org.sbm4j.meercat.nodes.logger
 import org.sbm4j.meercat.nodes.sendProcessors.SendSource
 
 abstract class NodeTester<T: Node> {

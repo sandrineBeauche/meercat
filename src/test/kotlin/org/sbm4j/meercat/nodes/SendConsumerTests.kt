@@ -10,7 +10,6 @@ import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.test.runTest
 import org.sbm4j.meercat.channels.SuperChannel
 import org.sbm4j.meercat.data.*
-import org.sbm4j.meercat.nodes.sendProcessors.SendConsumer
 import org.sbm4j.meercat.testingBack
 import kotlin.test.Test
 
