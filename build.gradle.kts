@@ -46,6 +46,7 @@ dependencies {
     //testFixturesImplementation(kotlin("test"))
     testFixturesImplementation("org.jetbrains.kotlin:kotlin-stdlib")
     testFixturesImplementation("org.junit.jupiter:junit-jupiter-api:5.10.1")
+    testFixturesImplementation("com.natpryce:hamkrest:${hamkrestVersion}")
 }
 
 tasks.test {
