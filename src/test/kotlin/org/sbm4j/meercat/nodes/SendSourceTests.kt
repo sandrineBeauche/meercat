@@ -2,15 +2,11 @@ package org.sbm4j.meercat.nodes
 
 import io.mockk.spyk
 import io.mockk.verify
-import kotlinx.coroutines.ExperimentalCoroutinesApi
-import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.test.TestScope
 import kotlinx.coroutines.test.runTest
 import org.sbm4j.meercat.channels.SuperChannel
 import org.sbm4j.meercat.data.*
 import org.sbm4j.meercat.nodes.sendProcessors.AbstractInitiator
-import org.sbm4j.meercat.nodes.sendProcessors.Initiator
-import org.sbm4j.meercat.nodes.sendProcessors.NodeStatus
 import kotlin.test.Test
 
 class TestingSendSource(

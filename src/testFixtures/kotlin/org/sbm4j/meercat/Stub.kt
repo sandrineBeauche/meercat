@@ -1,18 +1,14 @@
 package org.sbm4j.meercat
 
 import io.mockk.coEvery
-import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.delay
 import org.sbm4j.meercat.channels.SuperChannel
 import org.sbm4j.meercat.data.Back
 import org.sbm4j.meercat.data.ErrorInfo
 import org.sbm4j.meercat.data.ErrorLevel
 import org.sbm4j.meercat.data.Send
-import org.sbm4j.meercat.nodes.AbstractNode
 import org.sbm4j.meercat.nodes.AbstractSinkNode
-import org.sbm4j.meercat.nodes.Node
 import org.sbm4j.meercat.nodes.logger
-import org.sbm4j.meercat.nodes.sendProcessors.SendConsumer
 
 class Stub(
     name: String,

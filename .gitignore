@@ -913,3 +913,11 @@
 /build/classes/kotlin/main/org/sbm4j/meercat/TopologyManager$waitCompleted$1.class
 /build/classes/kotlin/main/org/sbm4j/meercat/TopologyManager.class
 /build/classes/kotlin/main/org/sbm4j/meercat/UtilsKt.class
+/.idea/modules/meercat.testFixtures.iml
+/build/libs/meercat-1.1.1.jar
+/build/publications/maven/module.json
+/build/tmp/publishMavenPublicationToGithubPackagesRepository/module-maven-metadata.xml
+/build/publications/maven/pom-default.xml
+/.gradle/9.0.0/checksums/sha256-checksums.bin
+/.gradle/9.0.0/checksums/sha512-checksums.bin
+/build/tmp/publishMavenPublicationToGithubPackagesRepository/snapshot-maven-metadata.xml

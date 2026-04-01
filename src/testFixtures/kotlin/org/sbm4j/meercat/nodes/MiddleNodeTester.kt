@@ -1,9 +1,6 @@
 package org.sbm4j.meercat.nodes
 
 import io.mockk.spyk
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.cancel
 import kotlinx.coroutines.runBlocking
 import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.BeforeEach
@@ -25,7 +22,7 @@ abstract class MiddleNodeTester<T>: NodeTester<T>()
     lateinit var stub: Stub
 
     @BeforeEach
-    fun setup(): Unit = runBlocking{
+    fun setup(): Unit = runBlocking {
         inChannel = SuperChannel.build(rootScope)
         outChannel = SuperChannel.build(rootScope)
         node = buildNode()
