@@ -22,3 +22,894 @@
 /.gradle/buildOutputCleanup/outputFiles.bin
 /.gradle/9.0.0/checksums/sha1-checksums.bin
 /.idea/vcs.xml
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/AbstractBarrier.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/AbstractBroadcast.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/AbstractCombinator$run$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/AbstractCombinator.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/AbstractInitiator.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/AbstractMiddleNode$run$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/AbstractMiddleNode.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/AbstractNode.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/AbstractProcessingNode.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/AbstractPropagator.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/AbstractRouter$run$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/AbstractRouter.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/AbstractSinkNode.class
+/build/classes/kotlin/main/org/sbm4j/meercat/data/Back$DefaultImpls.class
+/build/classes/kotlin/main/org/sbm4j/meercat/data/Back.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/BackB.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/BackD.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/BackDispatcher$DefaultImpls.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/BackDispatcher$performSendBacks$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/BackDispatcher$performSendBacks$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/BackDispatcher$performSendBacks$3.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/BackDispatcher.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher dispatches backs to correct branches$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher dispatches backs to correct branches$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher dispatches backs to correct branches$1$backs$1$1$invokeSuspend$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher dispatches backs to correct branches$1$backs$1$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher dispatches backs to correct branches$1$backs$1$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher dispatches backs to correct branches$1$backs$1$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher dispatches backs to correct branches$1$backs$1$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher dispatches backs to correct branches$1$backs$1$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher dispatches backs to correct branches$1$backs$1$1$invokeSuspend$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher dispatches backs to correct branches$1$backs$1$1$invokeSuspend$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher dispatches backs to correct branches$1$backs$1$1$invokeSuspend$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher dispatches backs to correct branches$1$backs$1$1$invokeSuspend$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher dispatches backs to correct branches$1$backs$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher dispatches backs to correct branches$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 0 and dispatches back$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 0 and dispatches back$1$invokeSuspend$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 0 and dispatches back$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 0 and dispatches back$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 0 and dispatches back$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 0 and dispatches back$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 0 and dispatches back$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 0 and dispatches back$1$invokeSuspend$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 0 and dispatches back$1$invokeSuspend$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 0 and dispatches back$1$invokeSuspend$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 0 and dispatches back$1$invokeSuspend$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 0 and dispatches back$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 1 and dispatches back$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 1 and dispatches back$1$invokeSuspend$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 1 and dispatches back$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 1 and dispatches back$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 1 and dispatches back$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 1 and dispatches back$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 1 and dispatches back$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 1 and dispatches back$1$invokeSuspend$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 1 and dispatches back$1$invokeSuspend$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 1 and dispatches back$1$invokeSuspend$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 1 and dispatches back$1$invokeSuspend$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher forwards send from branch 1 and dispatches back$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher handles concurrent sends from same branch$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher handles concurrent sends from same branch$1$backs$1$1$invokeSuspend$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher handles concurrent sends from same branch$1$backs$1$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher handles concurrent sends from same branch$1$backs$1$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher handles concurrent sends from same branch$1$backs$1$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher handles concurrent sends from same branch$1$backs$1$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher handles concurrent sends from same branch$1$backs$1$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher handles concurrent sends from same branch$1$backs$1$1$invokeSuspend$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher handles concurrent sends from same branch$1$backs$1$1$invokeSuspend$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher handles concurrent sends from same branch$1$backs$1$1$invokeSuspend$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher handles concurrent sends from same branch$1$backs$1$1$invokeSuspend$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher handles concurrent sends from same branch$1$backs$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests$dispatcher handles concurrent sends from same branch$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BackDispatcherTests.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/BackForwarder$DefaultImpls.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/BackForwarder$receiveBacks$2$2$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/BackForwarder$receiveBacks$2$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/BackForwarder$receiveBacks$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/BackForwarder.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/BackForwarderTests$add minor error to back forwarding$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/BackForwarderTests$simple back forward$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/BackForwarderTests.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Barrier$DefaultImpls.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Barrier$performBackBarrier$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Barrier$performSendBacks$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Barrier$performSendBacks$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Barrier$performSendBacks$3.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Barrier.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BarrierTests$barrier broadcasts error back to all branches$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BarrierTests$barrier broadcasts error back to all branches$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BarrierTests$barrier does not forward when only one branch has sent$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BarrierTests$barrier does not forward when only one branch has sent$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BarrierTests$barrier forwards send when all branches have sent$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BarrierTests$barrier forwards send when all branches have sent$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BarrierTests$barrier resolves two independent keys independently$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BarrierTests$barrier resolves two independent keys independently$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BarrierTests$barrier resolves two independent keys independently$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BarrierTests.class
+/build/reports/tests/test/css/base-style.css
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Broadcast$broadcast$2$1$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Broadcast$broadcast$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Broadcast$broadcast$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Broadcast$DefaultImpls.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Broadcast.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast aggregates error from one branch$1$invokeSuspend$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast aggregates error from one branch$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast aggregates error from one branch$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast aggregates error from one branch$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast aggregates error from one branch$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast aggregates error from one branch$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast aggregates error from one branch$1$invokeSuspend$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast aggregates error from one branch$1$invokeSuspend$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast aggregates error from one branch$1$invokeSuspend$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast aggregates error from one branch$1$invokeSuspend$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast aggregates error from one branch$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast aggregates errors from all branches$1$invokeSuspend$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast aggregates errors from all branches$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast aggregates errors from all branches$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast aggregates errors from all branches$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast aggregates errors from all branches$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast aggregates errors from all branches$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast aggregates errors from all branches$1$invokeSuspend$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast aggregates errors from all branches$1$invokeSuspend$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast aggregates errors from all branches$1$invokeSuspend$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast aggregates errors from all branches$1$invokeSuspend$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast aggregates errors from all branches$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$5.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$6.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$job1$1$invokeSuspend$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$job1$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$job1$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$job1$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$job1$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$job1$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$job1$1$invokeSuspend$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$job1$1$invokeSuspend$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$job1$1$invokeSuspend$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$job1$1$invokeSuspend$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$job1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$job2$1$invokeSuspend$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$job2$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$job2$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$job2$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$job2$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$job2$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$job2$1$invokeSuspend$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$job2$1$invokeSuspend$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$job2$1$invokeSuspend$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$job2$1$invokeSuspend$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1$job2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast handles multiple parallels sends$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends independent clones to each branch$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends independent clones to each branch$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends independent clones to each branch$1$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends independent clones to each branch$1$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends independent clones to each branch$1$invokeSuspend$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends independent clones to each branch$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends independent clones to each branch$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends independent clones to each branch$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends independent clones to each branch$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends independent clones to each branch$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends independent clones to each branch$1$invokeSuspend$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends independent clones to each branch$1$invokeSuspend$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends independent clones to each branch$1$invokeSuspend$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends independent clones to each branch$1$invokeSuspend$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends independent clones to each branch$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends to all branches and aggregates backs$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends to all branches and aggregates backs$1$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends to all branches and aggregates backs$1$invokeSuspend$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends to all branches and aggregates backs$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends to all branches and aggregates backs$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends to all branches and aggregates backs$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends to all branches and aggregates backs$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends to all branches and aggregates backs$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends to all branches and aggregates backs$1$invokeSuspend$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends to all branches and aggregates backs$1$invokeSuspend$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends to all branches and aggregates backs$1$invokeSuspend$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends to all branches and aggregates backs$1$invokeSuspend$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests$broadcast sends to all branches and aggregates backs$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/BroadcastTests.class
+/build/kotlin/compileKotlin/local-state/build-history.bin
+/build/kotlin/compileTestKotlin/local-state/build-history.bin
+/build/classes/kotlin/main/org/sbm4j/meercat/data/Channelable$Companion.class
+/build/classes/kotlin/main/org/sbm4j/meercat/data/Channelable$DefaultImpls.class
+/build/classes/kotlin/main/org/sbm4j/meercat/data/Channelable.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/ChannelManager.class
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Combinator$DefaultImpls.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Combinator$performBacks$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Combinator$performBacks$2$invokeSuspend$$inlined$filter$1$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Combinator$performBacks$2$invokeSuspend$$inlined$filter$1$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Combinator$performBacks$2$invokeSuspend$$inlined$filter$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Combinator$performBacks$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Combinator$performSends$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Combinator$performSends$2$invokeSuspend$$inlined$filter$1$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Combinator$performSends$2$invokeSuspend$$inlined$filter$1$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Combinator$performSends$2$invokeSuspend$$inlined$filter$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Combinator$performSends$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Combinator.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/CombinatorTester$sendToAllBranches$2$1$1$invokeSuspend$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/CombinatorTester$sendToAllBranches$2$1$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/CombinatorTester$sendToAllBranches$2$1$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/CombinatorTester$sendToAllBranches$2$1$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/CombinatorTester$sendToAllBranches$2$1$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/CombinatorTester$sendToAllBranches$2$1$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/CombinatorTester$sendToAllBranches$2$1$1$invokeSuspend$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/CombinatorTester$sendToAllBranches$2$1$1$invokeSuspend$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/CombinatorTester$sendToAllBranches$2$1$1$invokeSuspend$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/CombinatorTester$sendToAllBranches$2$1$1$invokeSuspend$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/CombinatorTester$sendToAllBranches$2$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/CombinatorTester$sendToAllBranches$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/CombinatorTester$setup$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/CombinatorTester$tearDown$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/CombinatorTester.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/ConsumerNodeTester$setup$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/ConsumerNodeTester$tearDown$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/ConsumerNodeTester.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/Controllable$DefaultImpls.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/Controllable.class
+/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/counters.tab
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/counters.tab
+/build/classes/kotlin/test/org/sbm4j/meercat/DualCombinator$run$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualCombinator.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualInitiator$run$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualInitiator$run$lambda$0$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualInitiator$run$lambda$0$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualInitiator$run$lambda$0$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualInitiator$run$lambda$0$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualInitiator$run$lambda$0$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualInitiator$run$lambda$0$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualInitiator$run$lambda$0$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualInitiator$run$lambda$0$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualInitiator$run$lambda$0$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualInitiator$run$lambda$0$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualInitiator$run$lambda$1$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualInitiator$run$lambda$1$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualInitiator$run$lambda$1$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualInitiator$run$lambda$1$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualInitiator$run$lambda$1$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualInitiator$run$lambda$1$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualInitiator$run$lambda$1$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualInitiator$run$lambda$1$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualInitiator$run$lambda$1$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualInitiator$run$lambda$1$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualInitiator.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualPropagator$run$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualPropagator.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualSink$run$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualSink$run$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualSink$run$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/DualSink.class
+/build/classes/kotlin/main/org/sbm4j/meercat/data/ErrorInfo.class
+/build/classes/kotlin/main/org/sbm4j/meercat/data/ErrorLevel.class
+/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/file-to-id.tab
+/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream
+/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at
+/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i
+/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/id-to-file.tab
+/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream
+/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at
+/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i
+/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i.len
+/build/reports/tests/test/index.html
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/Initiator$DefaultImpls.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/Initiator$start$job$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/Initiator$waitCompleted$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/Initiator.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/InitiatorTester$setup$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/InitiatorTester$startAndWait$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/InitiatorTester$tearDown$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/InitiatorTester.class
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/inline-functions.tab
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/inline-functions.tab.keystream
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/inline-functions.tab.keystream.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/inline-functions.tab.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/inline-functions.tab.values.at
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/inline-functions.tab_i
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/inline-functions.tab_i.len
+/build/classes/kotlin/main/org/sbm4j/meercat/data/IntBack.class
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.s
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len
+/build/classes/kotlin/main/org/sbm4j/meercat/data/IntSend.class
+/build/kotlin/compileKotlin/cacheable/last-build.bin
+/build/kotlin/compileTestKotlin/cacheable/last-build.bin
+/build/resources/main/logback.xml
+/build/resources/test/logback.xml
+/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/lookups.tab
+/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream
+/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/lookups.tab.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at
+/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab_i
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/lookups.tab_i
+/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab_i.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/lookups/lookups.tab_i.len
+/build/tmp/jar/MANIFEST.MF
+/build/classes/kotlin/test/org/sbm4j/meercat/MatchersKt$testingBack$$inlined$isA$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/MatchersKt$testingBack$$inlined$isA$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/MatchersKt$testingBack$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/MatchersKt$testingBack$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/MatchersKt$testingBack$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/MatchersKt$testingBackWithErrors$$inlined$isA$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/MatchersKt$testingBackWithErrors$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/MatchersKt$testingBackWithErrors$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/MatchersKt$testingBackWithErrors$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/MatchersKt$testingSendWithValue$$inlined$isA$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/MatchersKt$testingSendWithValue$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/MatchersKt.class
+/build/classes/kotlin/main/META-INF/meercat.kotlin_module
+/.idea/modules/meercat.test.iml
+/build/libs/meercat-1.1-SNAPSHOT.jar
+/build/classes/kotlin/test/META-INF/meercat_test.kotlin_module
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/MiddleNodeTester$setup$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/MiddleNodeTester$tearDown$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/MiddleNodeTester.class
+/.idea/modules.xml
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/Node$DefaultImpls.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/Node$start$3.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/Node.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/NodeKt.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/NodeStatus.class
+/build/classes/kotlin/test/org/sbm4j/meercat/NodeTester$initTestScope$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/NodeTester.class
+/build/reports/tests/test/packages/org.sbm4j.meercat.channels.html
+/build/reports/tests/test/classes/org.sbm4j.meercat.channels.SuperChannelTests.html
+/build/reports/tests/test/classes/org.sbm4j.meercat.dispatchers.BackDispatcherTests.html
+/build/reports/tests/test/classes/org.sbm4j.meercat.dispatchers.BarrierTests.html
+/build/reports/tests/test/classes/org.sbm4j.meercat.dispatchers.BroadcastTests.html
+/build/reports/tests/test/packages/org.sbm4j.meercat.dispatchers.html
+/build/reports/tests/test/classes/org.sbm4j.meercat.dispatchers.RouterTests.html
+/build/reports/tests/test/packages/org.sbm4j.meercat.html
+/build/reports/tests/test/classes/org.sbm4j.meercat.nodes.BackForwarderTests.html
+/build/reports/tests/test/packages/org.sbm4j.meercat.nodes.html
+/build/reports/tests/test/classes/org.sbm4j.meercat.nodes.SendConsumerTests.html
+/build/reports/tests/test/classes/org.sbm4j.meercat.nodes.SendForwarderTests.html
+/build/reports/tests/test/classes/org.sbm4j.meercat.nodes.SendSourceTests.html
+/build/reports/tests/test/classes/org.sbm4j.meercat.SimpleTopologyTests.html
+/build/test-results/test/binary/output.bin
+/build/test-results/test/binary/output.bin.idx
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.values.at
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.values.at
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i.len
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Propagator$DefaultImpls.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Propagator.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/PropagatorTester$setup$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/PropagatorTester$tearDown$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/PropagatorTester.class
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.s
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i.len
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/ReadyLatch.class
+/build/reports/tests/test/js/report.js
+/.gradle/9.0.0/fileHashes/resourceHashesCache.bin
+/build/test-results/test/binary/results.bin
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Router$DefaultImpls.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Router$forwardBacks$2$1$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Router$forwardBacks$2$1$invokeSuspend$$inlined$filter$1$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Router$forwardBacks$2$1$invokeSuspend$$inlined$filter$1$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Router$forwardBacks$2$1$invokeSuspend$$inlined$filter$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Router$forwardBacks$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Router$performSendBacks$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Router$performSendBacks$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Router$route$2$1$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Router$route$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Router$route$2$invokeSuspend$$inlined$filter$1$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Router$route$2$invokeSuspend$$inlined$filter$1$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Router$route$2$invokeSuspend$$inlined$filter$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Router$route$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/dispatchers/Router.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$back1Job$1$invokeSuspend$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$back1Job$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$back1Job$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$back1Job$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$back1Job$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$back1Job$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$back1Job$1$invokeSuspend$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$back1Job$1$invokeSuspend$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$back1Job$1$invokeSuspend$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$back1Job$1$invokeSuspend$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$back1Job$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$back2Job$1$invokeSuspend$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$back2Job$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$back2Job$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$back2Job$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$back2Job$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$back2Job$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$back2Job$1$invokeSuspend$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$back2Job$1$invokeSuspend$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$back2Job$1$invokeSuspend$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$back2Job$1$invokeSuspend$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1$back2Job$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router handles concurrent sends to different branches$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$5$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$5$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$5.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$6$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$6$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$6.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$7$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$7$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$7.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$8.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$9$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$9$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$9.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$10$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$10$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$10.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$11$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$11$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$11.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1$invokeSuspend$$inlined$sendSync$12.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes multiple sends to correct branches$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 0$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 0$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 0$1$invokeSuspend$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 0$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 0$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 0$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 0$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 0$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 0$1$invokeSuspend$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 0$1$invokeSuspend$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 0$1$invokeSuspend$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 0$1$invokeSuspend$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 0$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 1$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 1$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 1$1$invokeSuspend$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 1$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 1$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 1$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 1$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 1$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 1$1$invokeSuspend$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 1$1$invokeSuspend$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 1$1$invokeSuspend$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 1$1$invokeSuspend$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests$router routes send to branch 1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/RouterTests.class
+/build/classes/kotlin/main/org/sbm4j/meercat/data/Send$DefaultImpls.class
+/build/classes/kotlin/main/org/sbm4j/meercat/data/Send.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SendA.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SendC.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendConsumer$DefaultImpls.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendConsumer$performSends$2$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendConsumer$performSends$2$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendConsumer$performSends$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendConsumer.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$backs1$1$1$invokeSuspend$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$backs1$1$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$backs1$1$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$backs1$1$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$backs1$1$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$backs1$1$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$backs1$1$1$invokeSuspend$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$backs1$1$1$invokeSuspend$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$backs1$1$1$invokeSuspend$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$backs1$1$1$invokeSuspend$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$backs1$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$backs2$1$1$invokeSuspend$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$backs2$1$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$backs2$1$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$backs2$1$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$backs2$1$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$backs2$1$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$backs2$1$1$invokeSuspend$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$backs2$1$1$invokeSuspend$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$backs2$1$1$invokeSuspend$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$backs2$1$1$invokeSuspend$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$backs2$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1$invokeSuspend$lambda$3$$inlined$isA$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes mixed Send types concurrently$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes multiple TestingSend concurrently$1$backs$1$1$invokeSuspend$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes multiple TestingSend concurrently$1$backs$1$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes multiple TestingSend concurrently$1$backs$1$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes multiple TestingSend concurrently$1$backs$1$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes multiple TestingSend concurrently$1$backs$1$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes multiple TestingSend concurrently$1$backs$1$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes multiple TestingSend concurrently$1$backs$1$1$invokeSuspend$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes multiple TestingSend concurrently$1$backs$1$1$invokeSuspend$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes multiple TestingSend concurrently$1$backs$1$1$invokeSuspend$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes multiple TestingSend concurrently$1$backs$1$1$invokeSuspend$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes multiple TestingSend concurrently$1$backs$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes multiple TestingSend concurrently$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend and returns back$1$invokeSuspend$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend and returns back$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend and returns back$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend and returns back$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend and returns back$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend and returns back$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend and returns back$1$invokeSuspend$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend and returns back$1$invokeSuspend$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend and returns back$1$invokeSuspend$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend and returns back$1$invokeSuspend$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend and returns back$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend2 and returns back$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend2 and returns back$1$invokeSuspend$$inlined$isA$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend2 and returns back$1$invokeSuspend$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend2 and returns back$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend2 and returns back$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend2 and returns back$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend2 and returns back$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend2 and returns back$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend2 and returns back$1$invokeSuspend$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend2 and returns back$1$invokeSuspend$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend2 and returns back$1$invokeSuspend$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend2 and returns back$1$invokeSuspend$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests$consumer processes TestingSend2 and returns back$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendConsumerTests.class
+/build/classes/kotlin/main/org/sbm4j/meercat/data/SendException.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendForwarder$DefaultImpls.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendForwarder.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendForwarderTests$forward 2 sends$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendForwarderTests$forward 2 sends$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendForwarderTests$forward 2 sends$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendForwarderTests$node generate error$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendForwarderTests$node generate error$1$invokeSuspend$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendForwarderTests$node generate error$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendForwarderTests$node generate error$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendForwarderTests$node generate error$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendForwarderTests$node generate error$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendForwarderTests$node generate error$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendForwarderTests$node generate error$1$invokeSuspend$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendForwarderTests$node generate error$1$invokeSuspend$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendForwarderTests$node generate error$1$invokeSuspend$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendForwarderTests$node generate error$1$invokeSuspend$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendForwarderTests$node generate error$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendForwarderTests$simple forward$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendForwarderTests$simple forward$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendForwarderTests.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendSource$DefaultImpls$peformSendSync$$inlined$sendSync$1$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendSource$DefaultImpls$peformSendSync$$inlined$sendSync$1$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendSource$DefaultImpls$peformSendSync$$inlined$sendSync$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendSource$DefaultImpls$peformSendSync$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendSource$DefaultImpls$peformSendSync$$inlined$sendSync$2$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendSource$DefaultImpls$peformSendSync$$inlined$sendSync$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendSource$DefaultImpls$sendSync$$inlined$sendSync$1$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendSource$DefaultImpls$sendSync$$inlined$sendSync$1$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendSource$DefaultImpls$sendSync$$inlined$sendSync$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendSource$DefaultImpls$sendSync$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendSource$DefaultImpls$sendSync$$inlined$sendSync$2$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendSource$DefaultImpls$sendSync$$inlined$sendSync$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendSource$DefaultImpls.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendSource$peformSendSync$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendSource$send$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendSource$sendSync$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendSource$WhenMappings.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendSource.class
+/build/classes/kotlin/main/org/sbm4j/meercat/nodes/sendProcessors/SendSourceKt.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendSourceTests$send data and receive error back$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendSourceTests$send data and receive ok back$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/SendSourceTests.class
+/build/kotlin/compileKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin
+/build/kotlin/compileTestKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin
+/build/classes/kotlin/main/org/sbm4j/meercat/data/SimpleBack$Companion.class
+/build/classes/kotlin/main/org/sbm4j/meercat/data/SimpleBack.class
+/build/classes/kotlin/main/org/sbm4j/meercat/data/SimpleSend$Companion.class
+/build/classes/kotlin/main/org/sbm4j/meercat/data/SimpleSend.class
+/build/classes/kotlin/test/org/sbm4j/meercat/SimpleTopologyTests$dualInitiator dualPropagator dualSink1 dualSink2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/SimpleTopologyTests$dualInitiator1 dualInitiator2 dualCombinator sink$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/SimpleTopologyTests$initiator broadcast sink1 sink2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/SimpleTopologyTests$initiator forwarder sink$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/SimpleTopologyTests$initiator forwarder sink$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/SimpleTopologyTests$initiator router sink1 sink2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/SimpleTopologyTests$initiator1 initiator2 backDispatcher sink$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/SimpleTopologyTests$initiator1 initiator2 barrier sink$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/SimpleTopologyTests.class
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.s
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/inputs/source-to-output.tab
+/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream
+/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values
+/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at
+/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.s
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.s
+/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i
+/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i.len
+/build/classes/kotlin/main/org/sbm4j/meercat/data/Status.class
+/build/classes/kotlin/main/org/sbm4j/meercat/data/StringBack.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringBackDispatcher$run$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringBackDispatcher.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringBarrier$run$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringBarrier.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringBroadcast$run$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringBroadcast.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringForwarder$run$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringForwarder$run$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringForwarder$run$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringForwarder.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringInitiator$run$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringInitiator$run$lambda$0$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringInitiator$run$lambda$0$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringInitiator$run$lambda$0$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringInitiator$run$lambda$0$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringInitiator$run$lambda$0$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringInitiator$run$lambda$0$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringInitiator$run$lambda$0$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringInitiator$run$lambda$0$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringInitiator$run$lambda$0$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringInitiator$run$lambda$0$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringInitiator.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringRouter$run$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringRouter$run$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringRouter.class
+/build/classes/kotlin/main/org/sbm4j/meercat/data/StringSend.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringSink$run$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringSink$run$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/StringSink.class
+/build/classes/kotlin/test/org/sbm4j/meercat/Stub$processSend$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/Stub$respondWithError$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/Stub$respondWithError$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/Stub$run$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/Stub.class
+/build/reports/tests/test/css/style.css
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i.len
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$Companion.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$getBackFlow$$inlined$filter$1$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$getBackFlow$$inlined$filter$1$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$getBackFlow$$inlined$filter$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$getBackFlow$f$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$getSendFlow$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$receiveBack$$inlined$filterIsInstance$1$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$receiveBack$$inlined$filterIsInstance$1$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$receiveBack$$inlined$filterIsInstance$1$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$receiveBack$$inlined$filterIsInstance$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$receiveSend$$inlined$filterIsInstance$1$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$receiveSend$$inlined$filterIsInstance$1$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$receiveSend$$inlined$filterIsInstance$1$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$receiveSend$$inlined$filterIsInstance$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$sendSync$$inlined$filter$1$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$sendSync$$inlined$filter$1$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$sendSync$$inlined$filter$1$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$sendSync$$inlined$filter$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$sendSync$$inlined$filterIsInstance$1$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$sendSync$$inlined$filterIsInstance$1$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$sendSync$$inlined$filterIsInstance$1$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$sendSync$$inlined$filterIsInstance$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$sendSync$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$sendSync$flow$1$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$sendSync$flow$1$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel$sendSync$flow$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannel.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannelKt$sendSyncAll$2$deferredBacks$1$1$invokeSuspend$$inlined$sendSync$1$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannelKt$sendSyncAll$2$deferredBacks$1$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannelKt$sendSyncAll$2$deferredBacks$1$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannelKt$sendSyncAll$2$deferredBacks$1$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannelKt$sendSyncAll$2$deferredBacks$1$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannelKt$sendSyncAll$2$deferredBacks$1$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannelKt$sendSyncAll$2$deferredBacks$1$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannelKt$sendSyncAll$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannelKt$sendSyncAll$4$deferredBacks$1$1$invokeSuspend$$inlined$sendSync$1$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannelKt$sendSyncAll$4$deferredBacks$1$1$invokeSuspend$$inlined$sendSync$1$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannelKt$sendSyncAll$4$deferredBacks$1$1$invokeSuspend$$inlined$sendSync$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannelKt$sendSyncAll$4$deferredBacks$1$1$invokeSuspend$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannelKt$sendSyncAll$4$deferredBacks$1$1$invokeSuspend$$inlined$sendSync$2$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannelKt$sendSyncAll$4$deferredBacks$1$1$invokeSuspend$$inlined$sendSync$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannelKt$sendSyncAll$4$deferredBacks$1$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannelKt$sendSyncAll$4.class
+/build/classes/kotlin/main/org/sbm4j/meercat/channels/SuperChannelKt.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$broadcast a message with sendSyncAll$1$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$broadcast a message with sendSyncAll$1$1$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$broadcast a message with sendSyncAll$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$broadcast a message with sendSyncAll$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send and receive asynchrone$1$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send and receive asynchrone$1$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send and receive asynchrone$1$1$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send and receive asynchrone$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send and receive asynchrone$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send and receive multiple type of messages$1$1$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send and receive multiple type of messages$1$1$1$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send and receive multiple type of messages$1$1$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send and receive multiple type of messages$1$1$1$3$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send and receive multiple type of messages$1$1$1$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send and receive multiple type of messages$1$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send and receive multiple type of messages$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send and receive multiple type of messages$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send on SuperChannel and receive$1$1$1$invokeSuspend$lambda$1$$inlined$sendSync$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send on SuperChannel and receive$1$1$1$invokeSuspend$lambda$1$$inlined$sendSync$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send on SuperChannel and receive$1$1$1$invokeSuspend$lambda$1$$inlined$sendSync$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send on SuperChannel and receive$1$1$1$invokeSuspend$lambda$1$$inlined$sendSync$2$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send on SuperChannel and receive$1$1$1$invokeSuspend$lambda$1$$inlined$sendSync$2$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send on SuperChannel and receive$1$1$1$invokeSuspend$lambda$1$$inlined$sendSync$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send on SuperChannel and receive$1$1$1$invokeSuspend$lambda$1$$inlined$sendSync$3$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send on SuperChannel and receive$1$1$1$invokeSuspend$lambda$1$$inlined$sendSync$3$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send on SuperChannel and receive$1$1$1$invokeSuspend$lambda$1$$inlined$sendSync$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send on SuperChannel and receive$1$1$1$invokeSuspend$lambda$1$$inlined$sendSync$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send on SuperChannel and receive$1$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send on SuperChannel and receive$1$1$2$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send on SuperChannel and receive$1$1$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send on SuperChannel and receive$1$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests$send on SuperChannel and receive$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/channels/SuperChannelTests.class
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.len
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i
+/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i.len
+/build/kotlin/compileTestKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i.len
+/build/test-results/test/TEST-org.sbm4j.meercat.channels.SuperChannelTests.xml
+/build/test-results/test/TEST-org.sbm4j.meercat.dispatchers.BackDispatcherTests.xml
+/build/test-results/test/TEST-org.sbm4j.meercat.dispatchers.BarrierTests.xml
+/build/test-results/test/TEST-org.sbm4j.meercat.dispatchers.BroadcastTests.xml
+/build/test-results/test/TEST-org.sbm4j.meercat.dispatchers.RouterTests.xml
+/build/test-results/test/TEST-org.sbm4j.meercat.nodes.BackForwarderTests.xml
+/build/test-results/test/TEST-org.sbm4j.meercat.nodes.SendConsumerTests.xml
+/build/test-results/test/TEST-org.sbm4j.meercat.nodes.SendForwarderTests.xml
+/build/test-results/test/TEST-org.sbm4j.meercat.nodes.SendSourceTests.xml
+/build/test-results/test/TEST-org.sbm4j.meercat.SimpleTopologyTests.xml
+/build/classes/kotlin/test/org/sbm4j/meercat/data/TestingBack.class
+/build/classes/kotlin/test/org/sbm4j/meercat/data/TestingBack2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/TestingBackDispatcherNode$run$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/TestingBackDispatcherNode.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/TestingBackForwarder$run$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/TestingBackForwarder$run$2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/TestingBackForwarder.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/TestingBarrierNode$run$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/TestingBarrierNode.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/TestingBroadcastNode$run$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/TestingBroadcastNode.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/TestingRouterNode$run$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/dispatchers/TestingRouterNode.class
+/build/classes/kotlin/test/org/sbm4j/meercat/data/TestingSend.class
+/build/classes/kotlin/test/org/sbm4j/meercat/data/TestingSend2.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/TestingSendConcumer$run$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/TestingSendConcumer$run$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/TestingSendConcumer$run$4.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/TestingSendConcumer.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/TestingSendForwarder$run$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/TestingSendForwarder$run$3.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/TestingSendForwarder.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/TestingSendSource$run$1.class
+/build/classes/kotlin/test/org/sbm4j/meercat/nodes/TestingSendSource.class
+/build/classes/kotlin/main/org/sbm4j/meercat/TopologyManager$start$2$2$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/TopologyManager$start$2.class
+/build/classes/kotlin/main/org/sbm4j/meercat/TopologyManager$stop$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/TopologyManager$waitCompleted$1.class
+/build/classes/kotlin/main/org/sbm4j/meercat/TopologyManager.class
+/build/classes/kotlin/main/org/sbm4j/meercat/UtilsKt.class

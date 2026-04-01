@@ -1,0 +1,72 @@
+package org.sbm4j.meercat.dispatchers
+
+import io.mockk.spyk
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
+import kotlinx.coroutines.cancel
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.test.advanceUntilIdle
+import org.junit.jupiter.api.AfterEach
+import org.junit.jupiter.api.BeforeEach
+import org.sbm4j.meercat.NodeTester
+import org.sbm4j.meercat.Stub
+import org.sbm4j.meercat.channels.SuperChannel
+import org.sbm4j.meercat.data.Back
+import org.sbm4j.meercat.data.Send
+import org.sbm4j.meercat.data.TestingBack
+import org.sbm4j.meercat.data.TestingSend
+import org.sbm4j.meercat.nodes.dispatchers.Combinator
+import org.sbm4j.meercat.nodes.logger
+
+abstract class CombinatorTester<T: Combinator> : NodeTester<T>() {
+
+    lateinit var channelOut: SuperChannel
+    val channelsIns: MutableList<SuperChannel> = mutableListOf()
+
+    lateinit var stub: Stub
+
+    abstract val nbChannelsIns: Int
+
+    @BeforeEach
+    fun setup(): Unit = runBlocking {
+        channelOut = SuperChannel.build(rootScope, name = "channelOut")
+        repeat(nbChannelsIns) { index ->
+            channelsIns.add(SuperChannel.build(rootScope, name = "channelIn-${index}"))
+        }
+        node = buildNode()
+        stub = spyk(Stub("stub", channelOut))
+
+        node.start(rootScope)?.join()
+        stub.start(rootScope)?.join()
+
+        //channelsIns.forEach { it.awaitReady() }
+        //channelOut.awaitReady()
+    }
+
+    @AfterEach
+    fun tearDown():Unit = runBlocking {
+        node.stop()
+        stub.stop()
+        channelOut.close()
+        channelsIns.forEach { it.close() }
+        channelsIns.clear()
+        cleanupTestScope()
+    }
+
+    suspend fun sendToAllBranches(make: () -> TestingSend): List<TestingBack> = coroutineScope {
+        channelsIns.map { channel ->
+            async {
+                val send = make()
+                logger.debug { "sending ${send} on ${channel.name}" }
+                val back = channel.sendSync<TestingBack>(send)
+                logger.debug { "received back on ${channel.name}: $back" }
+                back
+            }
+        }.awaitAll()
+    }
+
+}
