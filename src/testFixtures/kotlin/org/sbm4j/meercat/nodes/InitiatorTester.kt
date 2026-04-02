@@ -14,12 +14,16 @@ abstract class InitiatorTester<T : Initiator> : NodeTester<T>() {
     lateinit var outChannel: SuperChannel
     lateinit var stub: Stub
 
+    fun buildStub(channel: SuperChannel): Stub {
+        return spyk(Stub("stub", outChannel))
+    }
+
     @BeforeEach
     fun setup(): Unit = runBlocking {
         outChannel = SuperChannel.build(rootScope)
         node = buildNode()
         node.initialize()
-        stub = spyk(Stub("stub", outChannel))
+        stub = buildStub(outChannel)
 
         stub.start(rootScope)?.join()
     }

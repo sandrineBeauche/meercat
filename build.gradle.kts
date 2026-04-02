@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "org.sbm4j"
-version = "1.1.3"
+version = "1.1.4"
 
 repositories {
     mavenCentral()
@@ -62,6 +62,7 @@ java {
     withSourcesJar()
     withJavadocJar()
 }
+
 
 
 publishing{

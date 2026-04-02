@@ -21,12 +21,16 @@ abstract class MiddleNodeTester<T>: NodeTester<T>()
 
     lateinit var stub: Stub
 
+    fun buildStub(channel: SuperChannel): Stub {
+        return spyk(Stub("stub", channel))
+    }
+
     @BeforeEach
     fun setup(): Unit = runBlocking {
         inChannel = SuperChannel.build(rootScope)
         outChannel = SuperChannel.build(rootScope)
         node = buildNode()
-        stub = spyk(Stub("stub", outChannel))
+        stub = buildStub(outChannel)
 
         node.start(rootScope)?.join()
         stub.start(rootScope)?.join()

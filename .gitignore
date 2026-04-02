@@ -1064,3 +1064,9 @@
 /build/classes/kotlin/testFixtures/org/sbm4j/meercat/data/TestingBack2.class
 /build/classes/kotlin/testFixtures/org/sbm4j/meercat/data/TestingSend.class
 /build/classes/kotlin/testFixtures/org/sbm4j/meercat/data/TestingSend2.class
+/build/tmp/javadocJar/MANIFEST.MF
+/build/tmp/sourcesJar/MANIFEST.MF
+/build/libs/meercat-1.1.3.jar
+/build/libs/meercat-1.1.3-javadoc.jar
+/build/libs/meercat-1.1.3-sources.jar
+/build/libs/meercat-1.1.3-test-fixtures.jar
