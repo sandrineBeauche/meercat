@@ -2,10 +2,11 @@ plugins {
     kotlin("jvm") version "2.0.20"
     `maven-publish`
     `java-test-fixtures`
+    id("org.jetbrains.dokka") version "1.9.20"
 }
 
 group = "org.sbm4j"
-version = "1.1.2"
+version = "1.1.3"
 
 repositories {
     mavenCentral()
@@ -55,6 +56,11 @@ tasks.test {
 
 kotlin {
     jvmToolchain(21)
+}
+
+java {
+    withSourcesJar()
+    withJavadocJar()
 }
 
 
