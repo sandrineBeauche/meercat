@@ -10,7 +10,7 @@ import org.sbm4j.meercat.data.Send
 import org.sbm4j.meercat.nodes.AbstractSinkNode
 import org.sbm4j.meercat.nodes.logger
 
-class Stub(
+open class Stub(
     name: String,
     override var inChannel: SuperChannel
 ) : AbstractSinkNode(name) {

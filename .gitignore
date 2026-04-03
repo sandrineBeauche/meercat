@@ -1074,3 +1074,9 @@
 /build/libs/meercat-1.1.4-javadoc.jar
 /build/libs/meercat-1.1.4-sources.jar
 /build/libs/meercat-1.1.4-test-fixtures.jar
+/build/tmp/testFixturesSourcesJar/MANIFEST.MF
+/build/libs/meercat-1.1.5.jar
+/build/libs/meercat-1.1.5-javadoc.jar
+/build/libs/meercat-1.1.5-sources.jar
+/build/libs/meercat-1.1.5-test-fixtures.jar
+/build/libs/meercat-1.1.5-test-fixtures-sources.jar
