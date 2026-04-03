@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "org.sbm4j"
-version = "1.1.4"
+version = "1.1.5"
 
 repositories {
     mavenCentral()
@@ -54,6 +54,11 @@ tasks.test {
     useJUnitPlatform()
 }
 
+tasks.register<Jar>("testFixturesSourcesJar") {
+    archiveClassifier.set("test-fixtures-sources")
+    from(sourceSets["testFixtures"].allSource)
+}
+
 kotlin {
     jvmToolchain(21)
 }
@@ -82,6 +87,7 @@ publishing{
             artifactId = "meercat"
             version = "$version"
             from(components["java"])
+            artifact(tasks["testFixturesSourcesJar"])
         }
     }
 }
