@@ -14,7 +14,7 @@ abstract class InitiatorTester<T : Initiator> : NodeTester<T>() {
     lateinit var outChannel: SuperChannel
     lateinit var stub: Stub
 
-    fun buildStub(channel: SuperChannel): Stub {
+    open fun buildStub(channel: SuperChannel): Stub {
         return spyk(Stub("stub", outChannel))
     }
 

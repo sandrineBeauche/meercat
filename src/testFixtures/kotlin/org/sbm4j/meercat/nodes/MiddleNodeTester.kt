@@ -21,7 +21,7 @@ abstract class MiddleNodeTester<T>: NodeTester<T>()
 
     lateinit var stub: Stub
 
-    fun buildStub(channel: SuperChannel): Stub {
+    open fun buildStub(channel: SuperChannel): Stub {
         return spyk(Stub("stub", channel))
     }
 
