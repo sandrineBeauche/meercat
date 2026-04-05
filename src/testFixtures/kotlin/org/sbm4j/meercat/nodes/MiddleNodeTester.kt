@@ -12,28 +12,16 @@ import org.sbm4j.meercat.data.ErrorLevel
 import org.sbm4j.meercat.data.Send
 import org.sbm4j.meercat.nodes.sendProcessors.SendForwarder
 
-abstract class MiddleNodeTester<T>: NodeTester<T>()
+abstract class MiddleNodeTester<T>: SourceNodeTester<T>()
         where T: SendForwarder, T: BackForwarder
 {
-
     lateinit var inChannel: SuperChannel
-    lateinit var outChannel: SuperChannel
-
-    lateinit var stub: Stub
-
-    open fun buildStub(channel: SuperChannel): Stub {
-        return spyk(Stub("stub", channel))
-    }
 
     @BeforeEach
     fun setup(): Unit = runBlocking {
         inChannel = SuperChannel.build(rootScope)
-        outChannel = SuperChannel.build(rootScope)
         node = buildNode()
-        stub = buildStub(outChannel)
-
         node.start(rootScope)?.join()
-        stub.start(rootScope)?.join()
     }
 
     @AfterEach

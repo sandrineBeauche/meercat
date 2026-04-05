@@ -1080,3 +1080,17 @@
 /build/libs/meercat-1.1.5-sources.jar
 /build/libs/meercat-1.1.5-test-fixtures.jar
 /build/libs/meercat-1.1.5-test-fixtures-sources.jar
+/build/libs/meercat-1.1.6.jar
+/build/libs/meercat-1.1.6-javadoc.jar
+/build/libs/meercat-1.1.6-sources.jar
+/build/libs/meercat-1.1.6-test-fixtures.jar
+/build/libs/meercat-1.1.6-test-fixtures-sources.jar
+/build/libs/meercat-1.1.7.jar
+/build/libs/meercat-1.1.7-javadoc.jar
+/build/libs/meercat-1.1.7-sources.jar
+/build/libs/meercat-1.1.7-test-fixtures.jar
+/build/libs/meercat-1.1.7-test-fixtures-sources.jar
+/build/classes/kotlin/testFixtures/org/sbm4j/meercat/nodes/SourceNodeTester$getReceivedSend$1.class
+/build/classes/kotlin/testFixtures/org/sbm4j/meercat/nodes/SourceNodeTester$setupStub$1.class
+/build/classes/kotlin/testFixtures/org/sbm4j/meercat/nodes/SourceNodeTester.class
+/build/classes/kotlin/testFixtures/org/sbm4j/meercat/Stub$run$1.class

@@ -50,6 +50,7 @@ open class Stub(
         val sendClazz = Send::class
         val flow = inChannel.getSendFlow()
         performSends(sendClazz, flow, ::processSend)
+        super.run()
     }
 
     override suspend fun stop() {
