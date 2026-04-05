@@ -1,18 +1,15 @@
 package org.sbm4j.meercat.nodes
 
-import io.mockk.spyk
 import kotlinx.coroutines.runBlocking
 import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.BeforeEach
-import org.sbm4j.meercat.NodeTester
-import org.sbm4j.meercat.Stub
 import org.sbm4j.meercat.channels.SuperChannel
 import org.sbm4j.meercat.data.ErrorInfo
 import org.sbm4j.meercat.data.ErrorLevel
 import org.sbm4j.meercat.data.Send
 import org.sbm4j.meercat.nodes.sendProcessors.SendForwarder
 
-abstract class MiddleNodeTester<T>: SourceNodeTester<T>()
+abstract class MiddleNodeTester<T>: AbstractSourceNodeTester<T>()
         where T: SendForwarder, T: BackForwarder
 {
     lateinit var inChannel: SuperChannel

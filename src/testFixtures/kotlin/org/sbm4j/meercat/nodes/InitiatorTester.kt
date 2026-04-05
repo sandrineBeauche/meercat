@@ -5,7 +5,7 @@ import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.BeforeEach
 import org.sbm4j.meercat.nodes.sendProcessors.Initiator
 
-abstract class InitiatorTester<T : Initiator> : SourceNodeTester<T>() {
+abstract class InitiatorTester<T : Initiator> : AbstractSourceNodeTester<T>() {
 
 
     @BeforeEach

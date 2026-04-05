@@ -10,9 +10,24 @@ import org.sbm4j.meercat.channels.SuperChannel
 import org.sbm4j.meercat.data.Send
 import org.sbm4j.meercat.nodes.sendProcessors.SendSource
 
-abstract class SourceNodeTester<T: SendSource>: NodeTester<T>() {
+interface SourceNodeTester<T: SendSource>{
+    var stub: Stub
 
-    lateinit var stub: Stub
+    open
+    fun buildStub(channel: SuperChannel): Stub {
+        return Stub("stub", channel)
+    }
+
+    fun getReceivedSend(): List<Send>{
+        val result = mutableListOf<Send>()
+        coVerify { stub.processSend(capture(result)) }
+        return result
+    }
+}
+
+abstract class AbstractSourceNodeTester<T: SendSource>: NodeTester<T>(), SourceNodeTester<T> {
+
+    override lateinit var stub: Stub
 
     lateinit var outChannel: SuperChannel
 
@@ -21,15 +36,5 @@ abstract class SourceNodeTester<T: SendSource>: NodeTester<T>() {
         outChannel = SuperChannel.build(rootScope)
         stub = spyk(buildStub(outChannel))
         stub.start(rootScope)?.join()
-    }
-
-    open fun buildStub(channel: SuperChannel): Stub {
-        return Stub("stub", channel)
-    }
-
-    fun getReceivedSend(): List<Send>{
-        val result = mutableListOf<Send>()
-        coVerify { stub.processSend(capture(result)) }
-        return result
     }
 }
