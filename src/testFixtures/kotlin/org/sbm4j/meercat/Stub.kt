@@ -58,27 +58,5 @@ open class Stub(
         super.stop()
     }
 
-    fun respondWithError(
-        predicate: ((Send) -> Boolean)? = null,
-        message: String = "",
-        level: ErrorLevel = ErrorLevel.MAJOR,
-        ex: Exception = Exception(message)
-    ) {
-        if(predicate == null) {
-            coEvery { processSend(any()) } answers {
-                val send = firstArg<Send>()
-                send.buildErrorBack(
-                    ErrorInfo(ex, this@Stub, level, message)
-                )
-            }
-        }
-        else{
-            coEvery { processSend(match { predicate(it) }) } answers {
-                val send = firstArg<Send>()
-                send.buildErrorBack(
-                    ErrorInfo(ex, this@Stub, level, message)
-                )
-            }
-        }
-    }
+
 }
