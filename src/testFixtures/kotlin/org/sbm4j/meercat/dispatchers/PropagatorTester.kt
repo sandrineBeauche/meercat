@@ -24,7 +24,7 @@ abstract class PropagatorTester<T> : NodeTester<T>()
         repeat(nbChannelsOuts) { index ->
             val channel = SuperChannel.build(rootScope)
             channelOuts.add(channel)
-            stubs.add(spyk(Stub("stub-$index", channel)))
+            stubs.add(spyk(buildStub(channel, "stub-$index")))
         }
         node = buildNode()
 
@@ -41,5 +41,9 @@ abstract class PropagatorTester<T> : NodeTester<T>()
         channelOuts.clear()
         stubs.clear()
         cleanupTestScope()
+    }
+
+    fun buildStub(channel: SuperChannel, name: String): Stub {
+        return Stub(name, channel)
     }
 }

@@ -31,13 +31,10 @@ abstract class CombinatorTester<T: Combinator> : NodeTester<T>() {
             channelsIns.add(SuperChannel.build(rootScope, name = "channelIn-${index}"))
         }
         node = buildNode()
-        stub = spyk(Stub("stub", channelOut))
+        stub = spyk(buildStub(channelOut))
 
         node.start(rootScope)?.join()
         stub.start(rootScope)?.join()
-
-        //channelsIns.forEach { it.awaitReady() }
-        //channelOut.awaitReady()
     }
 
     @AfterEach
@@ -62,4 +59,7 @@ abstract class CombinatorTester<T: Combinator> : NodeTester<T>() {
         }.awaitAll()
     }
 
+    fun buildStub(channel: SuperChannel): Stub {
+        return Stub("stub", channel)
+    }
 }
