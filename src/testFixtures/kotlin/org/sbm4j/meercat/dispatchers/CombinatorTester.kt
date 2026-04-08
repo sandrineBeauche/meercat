@@ -59,7 +59,7 @@ abstract class CombinatorTester<T: Combinator> : NodeTester<T>() {
         }.awaitAll()
     }
 
-    fun buildStub(channel: SuperChannel): Stub {
+    open fun buildStub(channel: SuperChannel): Stub {
         return Stub("stub", channel)
     }
 }
