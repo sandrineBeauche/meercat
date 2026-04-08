@@ -43,7 +43,7 @@ abstract class PropagatorTester<T> : NodeTester<T>()
         cleanupTestScope()
     }
 
-    fun buildStub(channel: SuperChannel, name: String): Stub {
+    open fun buildStub(channel: SuperChannel, name: String): Stub {
         return Stub(name, channel)
     }
 }
