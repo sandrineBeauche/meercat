@@ -51,7 +51,8 @@ class SendSourceTests: InitiatorTester<TestingSendSource>() {
 
     @Test
     fun `send data and receive error back`() = TestScope().runTest {
-        stub.respondWithError(message = "error")
+        val pred = TestingSend.predicateOnValue("coucou")
+        stub.matches.add(pred to Exception("an error"))
         startAndWait()
         verify { node.errorBack(any()) }
     }

@@ -1,6 +1,8 @@
 package org.sbm4j.meercat.channels
 
 import com.natpryce.hamkrest.assertion.assertThat
+import com.natpryce.hamkrest.equalTo
+import com.natpryce.hamkrest.greaterThanOrEqualTo
 import com.natpryce.hamkrest.sameInstance
 import io.mockk.mockk
 import kotlinx.coroutines.CoroutineName
@@ -225,6 +227,34 @@ class SuperChannelTests {
                 }
             }
         }
+    }
 
+    @Test
+    fun `multiple send on channel and receive responses`() = TestScope().runTest{
+        val contA = mockk<SendSource>()
+        val messages = (1..3).map { SendA("coucou$it", contA) }
+
+        coroutineScope {
+            val channel = SuperChannel.build(this)
+            val flow = channel.getSendFlow(SendA::class)
+
+            launch(CoroutineName("launchA")){
+                channel.awaitReady()
+                val backs = channel.sendSync(messages)
+
+                logger.debug{"finished to send sends"}
+                channel.close()
+
+                assertThat(messages.size, equalTo(3))
+            }
+            launch(CoroutineName("launchB")){
+                flow.take(3).collect { chanA ->
+                    logger.debug{"received ${chanA.name} from ${chanA.sender.name} and answers with a back"}
+                    val chanB = chanA.buildBack()
+                    channel.send(chanB)
+                }
+                logger.debug{"finished to answers to sends"}
+            }
+        }
     }
 }

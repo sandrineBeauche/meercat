@@ -8,6 +8,11 @@ data class TestingSend(
     override var sender: SendSource,
     override val name: String = "$value-send"
 ) : Send {
+    companion object {
+        fun predicateOnValue(value: String): (Send) -> Boolean {
+            return { send: Send -> send is TestingSend && send.value == value }
+        }
+    }
 
     override var channelableId: UUID = UUID.randomUUID()
 

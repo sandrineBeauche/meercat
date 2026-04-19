@@ -74,7 +74,8 @@ class BroadcastTests : PropagatorTester<TestingBroadcastNode>() {
 
     @Test
     fun `broadcast aggregates error from one branch`() = testScope.runTest {
-        stubs[0].respondWithError()
+        val pred = { send: Send -> send is TestingSend && send.value == "item1" }
+        stubs[0].matches.add(pred to Exception("an exception"))
 
         val back = channelIn.sendSync<TestingBack>(TestingSend("item1", sender))
         logger.debug { "received back $back" }
@@ -84,8 +85,9 @@ class BroadcastTests : PropagatorTester<TestingBroadcastNode>() {
 
     @Test
     fun `broadcast aggregates errors from all branches`() = testScope.runTest {
-        stubs[0].respondWithError()
-        stubs[1].respondWithError()
+        val pred = TestingSend.predicateOnValue("item1")
+        stubs[0].matches.add(pred to Exception("an exception"))
+        stubs[1].matches.add(pred to Exception("an exception"))
 
         val back = channelIn.sendSync<TestingBack>(TestingSend("item1", sender))
 

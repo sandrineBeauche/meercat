@@ -1,11 +1,8 @@
 package org.sbm4j.meercat
 
-import io.mockk.coEvery
 import kotlinx.coroutines.delay
 import org.sbm4j.meercat.channels.SuperChannel
 import org.sbm4j.meercat.data.Back
-import org.sbm4j.meercat.data.ErrorInfo
-import org.sbm4j.meercat.data.ErrorLevel
 import org.sbm4j.meercat.data.Send
 import org.sbm4j.meercat.nodes.AbstractSinkNode
 import org.sbm4j.meercat.nodes.logger
@@ -14,6 +11,8 @@ open class Stub(
     name: String,
     override var inChannel: SuperChannel
 ) : AbstractSinkNode(name) {
+
+    val matches: MutableList<Pair<(Send) -> Boolean, Any>> = mutableListOf()
 
     val responses: MutableMap<Send, Any> = mutableMapOf()
 
@@ -25,10 +24,15 @@ open class Stub(
         }
     }
 
+    fun findResponse(send: Send): Any? {
+        return responses[send]
+            ?: matches.firstOrNull { (predicate, _) -> predicate(send) }?.second
+    }
+
     suspend fun processSend(send: Send): Any {
         if(processingDelay > 0) delay(processingDelay)
         logger.debug{"${name}: received ${send.loggingLabel} ${send}"}
-        when(val resp = responses.get(send)){
+        when(val resp = findResponse(send)) {
             null -> {
                 logger.debug{"${name}: return default back for ${send.loggingLabel} ${send}"}
                 return send.buildBack()

@@ -128,6 +128,42 @@ class SuperChannel(val name: String = "superChannel") {
 
     }
 
+    /**
+     * Sends a list of [Send] messages through this channel concurrently and suspends until
+     * all matching [Back] responses have been received.
+     *
+     * Each message is dispatched in a dedicated coroutine via [async], and the function
+     * suspends until all responses have been collected via [awaitAll]. The match between
+     * each [Send] and its [Back] is done using [Channelable.channelableId], ensuring that
+     * the correct response is returned for each message even in a concurrent context.
+     *
+     * This is the batch equivalent of [sendSync] for a single message — it provides the
+     * same ordering and matching guarantees, but for multiple messages sent simultaneously.
+     *
+     * @param data the list of [Send] messages to dispatch concurrently
+     * @return the list of [Back] responses, one per message, in the same order as [data]
+     */
+    suspend inline fun sendSync(
+        data: List<Send>,
+    ): List<Back<*>>{
+        return data.map{ currentData ->
+            scope.async {
+                val flow = mainFlow
+                    .onSubscription {
+                        logger.trace { "${name} -> send message : ${currentData}" }
+                        channel.send(currentData)
+                        logger.trace { "${name} -> sent message : ${currentData} and wait for a response" }
+                    }
+                    .filterIsInstance<Back<*>>()
+                    .filter { current -> current.send.channelableId == currentData.channelableId }
+
+                val result = flow.first()
+                logger.trace { "${name} -> received response: ${result}" }
+                result
+            }
+        }.awaitAll()
+    }
+
 
     /**
      * Returns a [Flow] of [Send] messages of a specific type transiting through this channel.

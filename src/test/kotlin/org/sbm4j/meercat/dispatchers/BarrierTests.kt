@@ -6,6 +6,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.test.runTest
 import org.junit.jupiter.api.Test
 import org.sbm4j.meercat.channels.SuperChannel
+import org.sbm4j.meercat.data.Send
 import org.sbm4j.meercat.data.Status
 import org.sbm4j.meercat.data.TestingBack
 import org.sbm4j.meercat.data.TestingSend
@@ -72,7 +73,10 @@ class BarrierTests : CombinatorTester<TestingBarrierNode>() {
 
     @Test
     fun `barrier broadcasts error back to all branches`() = testScope.runTest {
-        stub.respondWithError()
+        val ex = Exception("an exception")
+        val pred = TestingSend.predicateOnValue("item1")
+        stub.matches.add(pred to ex)
+
         val backs = sendToAllBranches{ TestingSend("item1", sender) }
 
         coVerify(exactly = 1) { stub.processSend(any()) }
