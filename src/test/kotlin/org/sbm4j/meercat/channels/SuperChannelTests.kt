@@ -3,6 +3,7 @@ package org.sbm4j.meercat.channels
 import com.natpryce.hamkrest.assertion.assertThat
 import com.natpryce.hamkrest.equalTo
 import com.natpryce.hamkrest.greaterThanOrEqualTo
+import com.natpryce.hamkrest.hasSize
 import com.natpryce.hamkrest.sameInstance
 import io.mockk.mockk
 import kotlinx.coroutines.CoroutineName
@@ -16,10 +17,13 @@ import kotlinx.coroutines.test.runTest
 import org.sbm4j.meercat.data.Back
 import org.sbm4j.meercat.data.Channelable.Companion.lastId
 import org.sbm4j.meercat.data.ErrorInfo
+import org.sbm4j.meercat.data.ErrorLevel
 import org.sbm4j.meercat.data.Send
 import org.sbm4j.meercat.data.Status
+import org.sbm4j.meercat.nodes.Node
 import org.sbm4j.meercat.nodes.logger
 import org.sbm4j.meercat.nodes.sendProcessors.SendSource
+import org.sbm4j.meercat.testingBack
 import java.util.*
 import kotlin.test.Test
 
@@ -245,12 +249,77 @@ class SuperChannelTests {
                 logger.debug{"finished to send sends"}
                 channel.close()
 
-                assertThat(messages.size, equalTo(3))
+                assertThat(backs.size, equalTo(3))
             }
             launch(CoroutineName("launchB")){
                 flow.take(3).collect { chanA ->
                     logger.debug{"received ${chanA.name} from ${chanA.sender.name} and answers with a back"}
                     val chanB = chanA.buildBack()
+                    channel.send(chanB)
+                }
+                logger.debug{"finished to answers to sends"}
+            }
+        }
+    }
+
+    @Test
+    fun `multiple send on channel and receive aggregated`() = TestScope().runTest{
+        val contA = mockk<SendSource>()
+        val messages = (1..3).map { SendA("coucou$it", contA) }
+
+        coroutineScope {
+            val channel = SuperChannel.build(this)
+            val flow = channel.getSendFlow(SendA::class)
+
+            launch(CoroutineName("launchA")){
+                channel.awaitReady()
+                val back = channel.sendSyncAggregate(messages)
+
+                logger.debug{"finished to send sends"}
+                channel.close()
+
+                assertThat(back.status, equalTo(Status.OK))
+            }
+            launch(CoroutineName("launchB")){
+                flow.take(3).collect { chanA ->
+                    logger.debug{"received ${chanA.name} from ${chanA.sender.name} and answers with a back"}
+                    val chanB = chanA.buildBack()
+                    channel.send(chanB)
+                }
+                logger.debug{"finished to answers to sends"}
+            }
+        }
+    }
+
+    @Test
+    fun `multiple send on channel and receive aggregated with error`() = TestScope().runTest{
+        val contA = mockk<SendSource>()
+        val messages = (1..3).map { SendA("coucou$it", contA) }
+
+        coroutineScope {
+            val channel = SuperChannel.build(this)
+            val flow = channel.getSendFlow(SendA::class)
+
+            launch(CoroutineName("launchA")){
+                channel.awaitReady()
+                val back = channel.sendSyncAggregate(messages)
+
+                logger.debug{"finished to send sends"}
+                channel.close()
+
+                assertThat(back.status, equalTo(Status.ERROR))
+                assertThat(back.errorInfos, hasSize(equalTo(1)))
+            }
+            launch(CoroutineName("launchB")){
+                flow.take(3).collect { chanA ->
+                    logger.debug{"received ${chanA.name} from ${chanA.sender.name} and answers with a back"}
+                    val chanB = if(chanA.message ==  "coucou2"){
+                        val error = ErrorInfo(Exception("an error"), mockk<Node>(), ErrorLevel.MAJOR)
+                        chanA.buildErrorBack(error, Status.ERROR)
+                    }
+                    else {
+                        chanA.buildBack()
+                    }
                     channel.send(chanB)
                 }
                 logger.debug{"finished to answers to sends"}

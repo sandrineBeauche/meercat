@@ -143,7 +143,7 @@ class SuperChannel(val name: String = "superChannel") {
      * @param data the list of [Send] messages to dispatch concurrently
      * @return the list of [Back] responses, one per message, in the same order as [data]
      */
-    suspend inline fun sendSync(
+    suspend fun sendSync(
         data: List<Send>,
     ): List<Back<*>>{
         return data.map{ currentData ->
@@ -162,6 +162,25 @@ class SuperChannel(val name: String = "superChannel") {
                 result
             }
         }.awaitAll()
+    }
+
+    /**
+     * Sends a list of [Send] messages through this channel concurrently, suspends until
+     * all matching [Back] responses have been received, and aggregates them into a single [Back].
+     *
+     * Internally delegates to [sendSync] for concurrent dispatch and response collection,
+     * then reduces the individual [Back] responses into a single one using the [Back.plus]
+     * operator, which merges their [Status] and [ErrorInfo] entries.
+     *
+     * @param data the list of [Send] messages to dispatch concurrently
+     * @return a single aggregated [Back] combining all individual responses
+     */
+    suspend fun sendSyncAggregate(
+        data: List<Send>
+    ): Back<*>{
+        val backs = sendSync(data)
+        val result = backs.reduce { b1, b2 -> b1 + b2 }
+        return result
     }
 
 

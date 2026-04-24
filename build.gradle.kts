@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "org.sbm4j"
-version = "1.1.14"
+version = "1.1.15"
 
 repositories {
     mavenCentral()

@@ -5,6 +5,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import org.sbm4j.meercat.channels.SuperChannel
 import org.sbm4j.meercat.data.Back
+import org.sbm4j.meercat.data.MultipleSendException
 import org.sbm4j.meercat.data.Send
 import org.sbm4j.meercat.data.SendException
 import org.sbm4j.meercat.data.Status
@@ -75,6 +76,7 @@ interface SendSource: Node {
         }
     }
 
+
     /**
      * Sends a [Send] message through [outChannel] and suspends until the matching [Back]
      * response is received.
@@ -95,6 +97,60 @@ interface SendSource: Node {
             else -> {
                 val ex = SendException("Error when fetching the ${send.loggingLabel} ${send.sender}", back)
                 throw ex
+            }
+        }
+    }
+
+    /**
+     * Sends a list of [Send] messages through [outChannel] concurrently, suspends until
+     * all matching [Back] responses have been received, and aggregates them into a single [Back].
+     *
+     * If the aggregated response status is not [Status.OK], a [SendException] is thrown.
+     *
+     * @param sends the list of [Send] messages to dispatch concurrently
+     * @return the aggregated [Back] combining all individual responses
+     * @throws SendException if the aggregated response status is not [Status.OK]
+     */
+    suspend fun sendSyncAggregate(
+        sends: List<Send>
+    ): Back<*> {
+        val back = outChannel.sendSyncAggregate(sends)
+
+        logger.trace { "${name}: received the ${back.loggingLabel} for the sends" }
+        when (back.status) {
+            Status.OK -> return back
+            else -> {
+                val ex = SendException("Error when fetching the sends", back)
+                throw ex
+            }
+        }
+    }
+
+    /**
+     * Sends a list of [Send] messages through [outChannel] concurrently, suspends until
+     * all matching [Back] responses have been received, and returns them individually.
+     *
+     * Unlike [sendSyncAggregate], the responses are not aggregated — they are returned
+     * as a list, one per message. If any response has a status of [Status.ERROR] or
+     * [Status.FAIL], a [MultipleSendException] is thrown containing all the individual
+     * [SendException] instances for the failed responses.
+     *
+     * @param sends the list of [Send] messages to dispatch concurrently
+     * @return the list of [Back] responses, one per message, in the same order as [sends]
+     * @throws MultipleSendException if any of the responses has a non-OK status
+     */
+    suspend fun sendSync(sends: List<Send>): List<Back<*>> {
+        val backs = outChannel.sendSync(sends)
+
+        logger.trace { "${name}: received the backs for the sends" }
+        val globalStatus = backs.map{it.status}.reduce { acc, status -> acc + status }
+        when(globalStatus){
+            Status.OK -> return backs
+            else -> {
+                val exs = backs
+                    .filter { it.status == Status.ERROR || it.status == Status.FAIL }
+                    .map { back -> SendException("Error when fetching the send", back) }
+                throw MultipleSendException("Error when fetching the sends", exs)
             }
         }
     }
